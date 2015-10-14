@@ -71,7 +71,7 @@ shinyServer(
         inputId = "collar_select",
         label = "Select collars",
         choices = collars(),
-        selected = collars(),
+        selected = collars()[1:8],
         multiple = TRUE
       )
     })
